@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="D:/Android/gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.30/f195ee86e6c896ea47a1d39defbe20eb59cd149d/lombok-1.18.30.jar" />
+        </processorPath>
+        <module name="delivery.application-storage.main" />
+        <module name="delivery.common.main" />
+        <module name="delivery.application-storage.test" />
+        <module name="delivery.common.test" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel target="21" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="delivery.app" options="-Xlint:-processing" />
+      <module name="delivery.app.main" options="-Xlint:-processing" />
+      <module name="delivery.app.test" options="-Xlint:-processing" />
+      <module name="delivery.application-storage" options="-Xlint:-processing -parameters" />
+      <module name="delivery.application-storage.main" options="-Xlint:-processing -parameters" />
+      <module name="delivery.application-storage.test" options="-Xlint:-processing -parameters" />
+      <module name="delivery.common" options="-Xlint:-processing -parameters" />
+      <module name="delivery.common.main" options="-Xlint:-processing -parameters" />
+      <module name="delivery.common.test" options="-Xlint:-processing -parameters" />
+      <module name="delivery.list" options="-Xlint:-processing" />
+      <module name="delivery.list.main" options="-Xlint:-processing" />
+      <module name="delivery.list.test" options="-Xlint:-processing" />
+      <module name="delivery.utilities" options="-Xlint:-processing" />
+      <module name="delivery.utilities.main" options="-Xlint:-processing" />
+      <module name="delivery.utilities.test" options="-Xlint:-processing" />
+    </option>
   </component>
 </project>
